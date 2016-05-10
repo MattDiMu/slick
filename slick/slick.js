@@ -190,7 +190,7 @@
 
         _.$slideTrack.find('.slick-active').attr({
             'aria-hidden': 'false'
-        }).find('a, input, button, select').attr({
+        }).find('a, input, button, select').addBack('a, input, button, select').attr({
             'tabindex': '0'
         });
 
